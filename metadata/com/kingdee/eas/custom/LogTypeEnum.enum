@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizEnum xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom</package>
+    <name>LogTypeEnum</name>
+    <alias>bizEnum[com.kingdee.eas.custom.LogTypeEnum].alias</alias>
+    <description>bizEnum[com.kingdee.eas.custom.LogTypeEnum].description</description>
+    <userDefined>true</userDefined>
+    <className>com.kingdee.eas.custom.LogTypeEnum</className>
+    <enumDataType>INTEGER</enumDataType>
+    <enumValues>
+        <enumValue>
+            <name>sendyzj</name>
+            <alias>bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[sendyzj].alias</alias>
+            <userDefined>true</userDefined>
+            <value>1</value>
+        </enumValue>
+        <enumValue>
+            <name>setyzj</name>
+            <alias>bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[setyzj].alias</alias>
+            <userDefined>true</userDefined>
+            <value>2</value>
+        </enumValue>
+        <enumValue>
+            <name>auditPC</name>
+            <alias>bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[auditPC].alias</alias>
+            <userDefined>true</userDefined>
+            <value>3</value>
+        </enumValue>
+        <enumValue>
+            <name>auditAPP</name>
+            <alias>bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[auditAPP].alias</alias>
+            <userDefined>true</userDefined>
+            <value>4</value>
+        </enumValue>
+        <enumValue>
+            <name>PCBILLINFO</name>
+            <alias>bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[PCBILLINFO].alias</alias>
+            <userDefined>true</userDefined>
+            <value>5</value>
+        </enumValue>
+        <enumValue>
+            <name>APPBILLINFO</name>
+            <alias>bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[APPBILLINFO].alias</alias>
+            <userDefined>true</userDefined>
+            <value>6</value>
+        </enumValue>
+        <enumValue>
+            <name>zj</name>
+            <alias>bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[zj].alias</alias>
+            <userDefined>true</userDefined>
+            <value>7</value>
+        </enumValue>
+        <enumValue>
+            <name>APPzjGETUSER</name>
+            <alias>bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[APPzjGETUSER].alias</alias>
+            <userDefined>true</userDefined>
+            <value>9</value>
+        </enumValue>
+        <enumValue>
+            <name>APPGETATTLIST</name>
+            <alias>bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[APPGETATTLIST].alias</alias>
+            <userDefined>true</userDefined>
+            <value>10</value>
+        </enumValue>
+        <enumValue>
+            <name>initAtt</name>
+            <alias>bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[initAtt].alias</alias>
+            <userDefined>true</userDefined>
+            <value>11</value>
+        </enumValue>
+        <enumValue>
+            <name>hisAudit</name>
+            <alias>bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[hisAudit].alias</alias>
+            <userDefined>true</userDefined>
+            <value>12</value>
+        </enumValue>
+        <enumValue>
+            <name>HQ</name>
+            <alias>bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[HQ].alias</alias>
+            <userDefined>true</userDefined>
+            <value>13</value>
+        </enumValue>
+    </enumValues>
+    <resource>
+        <rs key="bizEnum[com.kingdee.eas.custom.LogTypeEnum].alias">
+            <lang locale="zh_CN" value="日志类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="日誌類型" />
+            <lang locale="zh_TW" value="日誌類型" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.LogTypeEnum].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[APPBILLINFO].alias">
+            <lang locale="zh_CN" value="APP端获取单据信息" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="APP端獲取單據信息" />
+            <lang locale="zh_TW" value="APP端獲取單據信息" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[APPGETATTLIST].alias">
+            <lang locale="zh_CN" value="APP端获取附件列表" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="APP端獲取附件列表" />
+            <lang locale="zh_TW" value="APP端獲取附件列表" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[APPzjGETUSER].alias">
+            <lang locale="zh_CN" value="APP转交查询人员" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="APP轉交查詢人員" />
+            <lang locale="zh_TW" value="APP轉交查詢人員" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[HQ].alias">
+            <lang locale="zh_CN" value="会签参与人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="會簽參與人" />
+            <lang locale="zh_TW" value="會簽參與人" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[PCBILLINFO].alias">
+            <lang locale="zh_CN" value="PC端获取单据信息" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="PC端獲取單據信息" />
+            <lang locale="zh_TW" value="PC端獲取單據信息" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[auditAPP].alias">
+            <lang locale="zh_CN" value="APP端审批" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="APP端審批" />
+            <lang locale="zh_TW" value="APP端審批" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[auditPC].alias">
+            <lang locale="zh_CN" value="PC端审批" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="PC端審批" />
+            <lang locale="zh_TW" value="PC端審批" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[hisAudit].alias">
+            <lang locale="zh_CN" value="历史审批信息" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="歷史審批信息" />
+            <lang locale="zh_TW" value="歷史審批信息" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[initAtt].alias">
+            <lang locale="zh_CN" value="附件查看" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件查看" />
+            <lang locale="zh_TW" value="附件查看" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[sendyzj].alias">
+            <lang locale="zh_CN" value="发送云之家代办" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="發送雲之家代辦" />
+            <lang locale="zh_TW" value="發送雲之家代辦" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[setyzj].alias">
+            <lang locale="zh_CN" value="设置云之家消息状态" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="設置雲之家消息狀態" />
+            <lang locale="zh_TW" value="設置雲之家消息狀態" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.LogTypeEnum].enumValues.enumValue[zj].alias">
+            <lang locale="zh_CN" value="转交" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="轉交" />
+            <lang locale="zh_TW" value="轉交" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.LogTypeEnum].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</bizEnum>
+

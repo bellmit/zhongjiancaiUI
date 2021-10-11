@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.app</package>
+    <name>CT_CUS_EmpAttend</name>
+    <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].alias</alias>
+    <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].description</description>
+    <userDefined>true</userDefined>
+    <bizUnitPK>com.kingdee.eas.custom.EmpAttend</bizUnitPK>
+    <columns>
+        <column>
+            <name>FName</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FName].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>true</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>FNumber</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FNumber].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FDescription</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FDescription].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FDescription].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>true</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>FSimpleName</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FSimpleName].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FSimpleName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+        <column>
+            <name>FCreatorID</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FCreatorID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FCreatorID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FCreateTime</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FCreateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FCreateTime].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FLastUpdateUserID</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FLastUpdateUserID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FLastUpdateUserID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FLastUpdateTime</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FLastUpdateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FLastUpdateTime].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FControlUnitID</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FControlUnitID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FControlUnitID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>11111111-1111-1111-1111-111111111111CCE7AED4</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFEmpNumber</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFEmpNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFEmpNumber].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFEmpName</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFEmpName].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFEmpName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFPeriod</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFPeriod].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFPeriod].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFBingjia</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFBingjia].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFBingjia].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFShijia</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFShijia].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFShijia].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFChanjia</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFChanjia].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFChanjia].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFKuanggong</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFKuanggong].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFKuanggong].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFBingjiakoukuan</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFBingjiakoukuan].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFBingjiakoukuan].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFKaoqinkoukuan</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFKaoqinkoukuan].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFKaoqinkoukuan].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>CPK_CUS_EmpAttearh</name>
+        <userDefined>true</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <foreignKeys>
+        <foreignKey>
+            <name>CFK_CUS_CUSEACrtqr</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FCreatorID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_CUS_CUSEALUU9s</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FLastUpdateUserID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_CUS_CUSEACnUos</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_OUPartCtrl" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FUnitID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FControlUnitID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+    </foreignKeys>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工考勤信息" />
+            <lang locale="zh_HK" value="員工考勤信息" />
+            <lang locale="zh_TW" value="員工考勤信息" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFBingjia].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="病假" />
+            <lang locale="zh_HK" value="病假" />
+            <lang locale="zh_TW" value="病假" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFBingjia].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="病假" />
+            <lang locale="zh_HK" value="病假" />
+            <lang locale="zh_TW" value="病假" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFBingjiakoukuan].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="病假扣款" />
+            <lang locale="zh_HK" value="病假扣款" />
+            <lang locale="zh_TW" value="病假扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFBingjiakoukuan].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="病假扣款" />
+            <lang locale="zh_HK" value="病假扣款" />
+            <lang locale="zh_TW" value="病假扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFChanjia].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="产假" />
+            <lang locale="zh_HK" value="產假" />
+            <lang locale="zh_TW" value="產假" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFChanjia].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="产假" />
+            <lang locale="zh_HK" value="產假" />
+            <lang locale="zh_TW" value="產假" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFEmpName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工名称" />
+            <lang locale="zh_HK" value="員工名稱" />
+            <lang locale="zh_TW" value="員工名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFEmpName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工名称" />
+            <lang locale="zh_HK" value="員工名稱" />
+            <lang locale="zh_TW" value="員工名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFEmpNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工编码" />
+            <lang locale="zh_HK" value="員工編碼" />
+            <lang locale="zh_TW" value="員工編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFEmpNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工编码" />
+            <lang locale="zh_HK" value="員工編碼" />
+            <lang locale="zh_TW" value="員工編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFKaoqinkoukuan].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="考勤扣款" />
+            <lang locale="zh_HK" value="考勤扣款" />
+            <lang locale="zh_TW" value="考勤扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFKaoqinkoukuan].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="考勤扣款" />
+            <lang locale="zh_HK" value="考勤扣款" />
+            <lang locale="zh_TW" value="考勤扣款" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFKuanggong].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="旷工" />
+            <lang locale="zh_HK" value="曠工" />
+            <lang locale="zh_TW" value="曠工" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFKuanggong].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="旷工" />
+            <lang locale="zh_HK" value="曠工" />
+            <lang locale="zh_TW" value="曠工" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFPeriod].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="期间" />
+            <lang locale="zh_HK" value="期間" />
+            <lang locale="zh_TW" value="期間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFPeriod].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="期间" />
+            <lang locale="zh_HK" value="期間" />
+            <lang locale="zh_TW" value="期間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFShijia].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="事假" />
+            <lang locale="zh_HK" value="事假" />
+            <lang locale="zh_TW" value="事假" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[CFShijia].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="事假" />
+            <lang locale="zh_HK" value="事假" />
+            <lang locale="zh_TW" value="事假" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FControlUnitID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="控制单元" />
+            <lang locale="zh_HK" value="控制單元" />
+            <lang locale="zh_TW" value="控制單元" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FControlUnitID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="控制单元" />
+            <lang locale="zh_HK" value="控制單元" />
+            <lang locale="zh_TW" value="控制單元" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FCreateTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FCreateTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FCreatorID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建者" />
+            <lang locale="zh_HK" value="創建者" />
+            <lang locale="zh_TW" value="創建者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FCreatorID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建者" />
+            <lang locale="zh_HK" value="創建者" />
+            <lang locale="zh_TW" value="創建者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FDescription].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="zh_HK" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FDescription].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="zh_HK" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FLastUpdateTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FLastUpdateTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FLastUpdateUserID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改者" />
+            <lang locale="zh_HK" value="最後修改者" />
+            <lang locale="zh_TW" value="最後修改者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FLastUpdateUserID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改者" />
+            <lang locale="zh_HK" value="最後修改者" />
+            <lang locale="zh_TW" value="最後修改者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FSimpleName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="简称" />
+            <lang locale="zh_HK" value="簡稱" />
+            <lang locale="zh_TW" value="簡稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].columns.column[FSimpleName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="简称" />
+            <lang locale="zh_HK" value="簡稱" />
+            <lang locale="zh_TW" value="簡稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_EmpAttend].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="單級基礎資料範本" />
+        </rs>
+    </resource>
+</dataTable>
+

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.app</package>
+    <name>DataFacade</name>
+    <alias>facade[com.kingdee.eas.custom.app.DataFacade].alias</alias>
+    <description>facade[com.kingdee.eas.custom.app.DataFacade].description</description>
+    <userDefined>true</userDefined>
+    <bosType>CE3AECE9</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.DataFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.app.DataFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getAndPutDate</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.app.DataFacade].methods.method[getAndPutDate].alias</alias>
+            <description>facade[com.kingdee.eas.custom.app.DataFacade].methods.method[getAndPutDate].description</description>
+            <innerID>015b71b7-79b9-4c46-822c-eaa8e0c7732b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>data</name>
+                    <alias>facade[com.kingdee.eas.custom.app.DataFacade].methods.method[getAndPutDate].parameters.parameter[data].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.app.DataFacade].methods.method[getAndPutDate].parameters.parameter[data].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.custom.app.DataFacade].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.DataFacade].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.DataFacade].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.DataFacade].methods.method[getAndPutDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.DataFacade].methods.method[getAndPutDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.DataFacade].methods.method[getAndPutDate].parameters.parameter[data].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.app.DataFacade].methods.method[getAndPutDate].parameters.parameter[data].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</facade>
+

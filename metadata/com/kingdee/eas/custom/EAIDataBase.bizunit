@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom</package>
+    <name>EAIDataBase</name>
+    <alias>bizUnit[com.kingdee.eas.custom.EAIDataBase].alias</alias>
+    <description>bizUnit[com.kingdee.eas.custom.EAIDataBase].description</description>
+    <userDefined>true</userDefined>
+    <bizType>BaseData</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.custom.app.EAIDataBase</entityPK>
+    <queryPK>com.kingdee.eas.custom.app.EAIDataBaseQuery</queryPK>
+    <editUIPK>com.kingdee.eas.custom.client.EAIDataBaseEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.custom.client.EAIDataBaseListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK />
+    <listUIFunctionPK />
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>DataBase</bimTemplateType>
+    <relatedTablePK />
+    <relatedEntityPK />
+    <relatedEditUIPK />
+    <genImplementCode>true</genImplementCode>
+    <webEditPagePK />
+    <webListPagePK />
+    <webPagePKS />
+    <webViewPagePK />
+    <webBriefPagePK />
+    <relatedWebEditPagePK />
+    <relatedQueryPK />
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.custom.EAIDataBase].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="中间库" />
+            <lang locale="zh_HK" value="中間庫" />
+            <lang locale="zh_TW" value="中間庫" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EAIDataBase].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EAIDataBase].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EAIDataBase].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EAIDataBase].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EAIDataBase].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.app.EAIDataBaseQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.app.EAIDataBaseQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.app.EAIDataBaseQuery" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EAIDataBase].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.client.EAIDataBaseEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.client.EAIDataBaseEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.client.EAIDataBaseEditUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EAIDataBase].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EAIDataBase].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EAIDataBase].extendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EAIDataBase].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.client.EAIDataBaseListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.client.EAIDataBaseListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.client.EAIDataBaseListUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EAIDataBase].extendedProperty.maxFieldIndex">
+            <lang locale="en_US" value="4" />
+            <lang locale="zh_CN" value="4" />
+            <lang locale="zh_TW" value="4" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EAIDataBase].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizUnit>
+

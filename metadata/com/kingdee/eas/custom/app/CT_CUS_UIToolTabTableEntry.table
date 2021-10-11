@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.app</package>
+    <name>CT_CUS_UIToolTabTableEntry</name>
+    <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].alias</alias>
+    <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].description</description>
+    <userDefined>true</userDefined>
+    <bizUnitPK />
+    <columns>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[FID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>''</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FSeq</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[FSeq].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[FSeq].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>0</defaultValue>
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FParentID</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[FParentID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[FParentID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>''</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFSeq</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFSeq].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFSeq].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>0</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFDisplayName</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFDisplayName].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFDisplayName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFEntityAttributes</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFEntityAttributes].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFEntityAttributes].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFDbName</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFDbName].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFDbName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFFieldType</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFFieldType].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFFieldType].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFBelongToRow</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFBelongToRow].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFBelongToRow].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>10</precision>
+        </column>
+        <column>
+            <name>CFCrossColumn</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFCrossColumn].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFCrossColumn].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>10</precision>
+        </column>
+        <column>
+            <name>CFIsEdit</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFIsEdit].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFIsEdit].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>1</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFTableName</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFTableName].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFTableName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFIsPhone</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFIsPhone].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFIsPhone].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>1</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFEditState</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFEditState].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFEditState].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFColWidth</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFColWidth].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFColWidth].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>10</precision>
+        </column>
+        <column>
+            <name>CFShowNode</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFShowNode].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFShowNode].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>200</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFEditNode</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFEditNode].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFEditNode].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>200</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFInitValue</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFInitValue].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFInitValue].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>200</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFLablePro</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFLablePro].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFLablePro].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>200</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFRequiredNode</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFRequiredNode].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFRequiredNode].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>200</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFToHideNode</name>
+            <alias>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFToHideNode].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFToHideNode].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>CPK_CUS_UITTTEIhba</name>
+        <userDefined>true</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType />
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="页签表格信息" />
+            <lang locale="zh_HK" value="頁簽表格信息" />
+            <lang locale="zh_TW" value="頁簽表格信息" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFBelongToRow].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="所属行号" />
+            <lang locale="zh_HK" value="所屬行號" />
+            <lang locale="zh_TW" value="所屬行號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFBelongToRow].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="所属行号" />
+            <lang locale="zh_HK" value="所屬行號" />
+            <lang locale="zh_TW" value="所屬行號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFColWidth].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="列宽" />
+            <lang locale="zh_HK" value="列寬" />
+            <lang locale="zh_TW" value="列寬" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFColWidth].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="列宽" />
+            <lang locale="zh_HK" value="列寬" />
+            <lang locale="zh_TW" value="列寬" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFCrossColumn].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="跨列数" />
+            <lang locale="zh_HK" value="跨列數" />
+            <lang locale="zh_TW" value="跨列數" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFCrossColumn].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="跨列数" />
+            <lang locale="zh_HK" value="跨列數" />
+            <lang locale="zh_TW" value="跨列數" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFDbName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据库字段名" />
+            <lang locale="zh_HK" value="資料庫字段名" />
+            <lang locale="zh_TW" value="資料庫字段名" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFDbName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据库字段名" />
+            <lang locale="zh_HK" value="資料庫字段名" />
+            <lang locale="zh_TW" value="資料庫字段名" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFDisplayName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="显示名称" />
+            <lang locale="zh_HK" value="顯示名稱" />
+            <lang locale="zh_TW" value="顯示名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFDisplayName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="显示名称" />
+            <lang locale="zh_HK" value="顯示名稱" />
+            <lang locale="zh_TW" value="顯示名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFEditNode].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编辑节点" />
+            <lang locale="zh_HK" value="編輯節點" />
+            <lang locale="zh_TW" value="編輯節點" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFEditNode].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编辑节点" />
+            <lang locale="zh_HK" value="編輯節點" />
+            <lang locale="zh_TW" value="編輯節點" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFEditState].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修改状态" />
+            <lang locale="zh_HK" value="修改狀態" />
+            <lang locale="zh_TW" value="修改狀態" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFEditState].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修改状态" />
+            <lang locale="zh_HK" value="修改狀態" />
+            <lang locale="zh_TW" value="修改狀態" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFEntityAttributes].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="实体属性" />
+            <lang locale="zh_HK" value="實體屬性" />
+            <lang locale="zh_TW" value="實體屬性" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFEntityAttributes].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="实体属性" />
+            <lang locale="zh_HK" value="實體屬性" />
+            <lang locale="zh_TW" value="實體屬性" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFFieldType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="字段类型" />
+            <lang locale="zh_HK" value="字段類型" />
+            <lang locale="zh_TW" value="字段類型" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFFieldType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="字段类型" />
+            <lang locale="zh_HK" value="字段類型" />
+            <lang locale="zh_TW" value="字段類型" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFInitValue].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="初始值" />
+            <lang locale="zh_HK" value="初始值" />
+            <lang locale="zh_TW" value="初始值" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFInitValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="初始值" />
+            <lang locale="zh_HK" value="初始值" />
+            <lang locale="zh_TW" value="初始值" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFIsEdit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否能修改" />
+            <lang locale="zh_HK" value="是否能修改" />
+            <lang locale="zh_TW" value="是否能修改" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFIsEdit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否能修改" />
+            <lang locale="zh_HK" value="是否能修改" />
+            <lang locale="zh_TW" value="是否能修改" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFIsPhone].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否手机端收起" />
+            <lang locale="zh_HK" value="是否手機端收起" />
+            <lang locale="zh_TW" value="是否手機端收起" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFIsPhone].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否手机端显示" />
+            <lang locale="zh_HK" value="是否手機端顯示" />
+            <lang locale="zh_TW" value="是否手機端顯示" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFLablePro].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="标签属性" />
+            <lang locale="zh_HK" value="標籤屬性" />
+            <lang locale="zh_TW" value="標籤屬性" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFLablePro].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="标签属性" />
+            <lang locale="zh_HK" value="標籤屬性" />
+            <lang locale="zh_TW" value="標籤屬性" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFRequiredNode].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="必填节点" />
+            <lang locale="zh_HK" value="必填節點" />
+            <lang locale="zh_TW" value="必填節點" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFRequiredNode].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="必填节点" />
+            <lang locale="zh_HK" value="必填節點" />
+            <lang locale="zh_TW" value="必填節點" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFSeq].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据分录序列号" />
+            <lang locale="zh_HK" value="單據分錄序列號" />
+            <lang locale="zh_TW" value="單據分錄序列號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFSeq].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFShowNode].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="显示节点" />
+            <lang locale="zh_HK" value="顯示節點" />
+            <lang locale="zh_TW" value="顯示節點" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFShowNode].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="显示节点" />
+            <lang locale="zh_HK" value="顯示節點" />
+            <lang locale="zh_TW" value="顯示節點" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFTableName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="页签表格名称" />
+            <lang locale="zh_HK" value="頁簽表格名稱" />
+            <lang locale="zh_TW" value="頁簽表格名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFTableName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="页签表格名称" />
+            <lang locale="zh_HK" value="頁簽表格名稱" />
+            <lang locale="zh_TW" value="頁簽表格名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFToHideNode].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="针对隐藏节点" />
+            <lang locale="zh_HK" value="針對隱藏節點" />
+            <lang locale="zh_TW" value="針對隱藏節點" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[CFToHideNode].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="针对隐藏节点" />
+            <lang locale="zh_HK" value="針對隱藏節點" />
+            <lang locale="zh_TW" value="針對隱藏節點" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[FID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[FID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[FParentID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[FParentID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[FSeq].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据分录序列号" />
+            <lang locale="zh_HK" value="單據分錄序列號" />
+            <lang locale="zh_TW" value="單據分錄序列號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].columns.column[FSeq].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据分录序列号（定义为序列属性即使用{seq}）" />
+            <lang locale="zh_HK" value="單據分錄序列號（定義為序列屬性即使用{seq}）" />
+            <lang locale="zh_TW" value="單據分錄序列號（定義為序列屬性即使用{seq}）" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.app.CT_CUS_UIToolTabTableEntry].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</dataTable>
+

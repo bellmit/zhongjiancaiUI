@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizEnum xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom</package>
+    <name>PCPageTypeEnum</name>
+    <alias>bizEnum[com.kingdee.eas.custom.PCPageTypeEnum].alias</alias>
+    <description>bizEnum[com.kingdee.eas.custom.PCPageTypeEnum].description</description>
+    <userDefined>true</userDefined>
+    <className>com.kingdee.eas.custom.PCPageTypeEnum</className>
+    <enumDataType>INTEGER</enumDataType>
+    <enumValues>
+        <enumValue>
+            <name>THREE</name>
+            <alias>bizEnum[com.kingdee.eas.custom.PCPageTypeEnum].enumValues.enumValue[THREE].alias</alias>
+            <userDefined>true</userDefined>
+            <value>3</value>
+        </enumValue>
+        <enumValue>
+            <name>FOUR</name>
+            <alias>bizEnum[com.kingdee.eas.custom.PCPageTypeEnum].enumValues.enumValue[FOUR].alias</alias>
+            <userDefined>true</userDefined>
+            <value>4</value>
+        </enumValue>
+    </enumValues>
+    <resource>
+        <rs key="bizEnum[com.kingdee.eas.custom.PCPageTypeEnum].alias">
+            <lang locale="zh_CN" value="PC界面类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="PC介面類型" />
+            <lang locale="zh_TW" value="PC介面類型" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.PCPageTypeEnum].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.PCPageTypeEnum].enumValues.enumValue[FOUR].alias">
+            <lang locale="zh_CN" value="四列" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="四列" />
+            <lang locale="zh_TW" value="四列" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.PCPageTypeEnum].enumValues.enumValue[THREE].alias">
+            <lang locale="zh_CN" value="三列" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="三列" />
+            <lang locale="zh_TW" value="三列" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.PCPageTypeEnum].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</bizEnum>
+

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom</package>
+    <name>EmpAttend</name>
+    <alias>bizUnit[com.kingdee.eas.custom.EmpAttend].alias</alias>
+    <description>bizUnit[com.kingdee.eas.custom.EmpAttend].description</description>
+    <userDefined>true</userDefined>
+    <bizType>BaseData</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.custom.app.EmpAttend</entityPK>
+    <queryPK>com.kingdee.eas.custom.app.EmpAttendQuery</queryPK>
+    <editUIPK>com.kingdee.eas.custom.client.EmpAttendEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.custom.client.EmpAttendListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK />
+    <listUIFunctionPK />
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>DataBase</bimTemplateType>
+    <relatedTablePK />
+    <relatedEntityPK />
+    <relatedEditUIPK />
+    <genImplementCode>true</genImplementCode>
+    <webEditPagePK />
+    <webListPagePK />
+    <webPagePKS />
+    <webViewPagePK />
+    <webBriefPagePK />
+    <relatedWebEditPagePK />
+    <relatedQueryPK />
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.custom.EmpAttend].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工考勤信息" />
+            <lang locale="zh_HK" value="員工考勤信息" />
+            <lang locale="zh_TW" value="員工考勤信息" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EmpAttend].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EmpAttend].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EmpAttend].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EmpAttend].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EmpAttend].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.app.EmpAttendQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.app.EmpAttendQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.app.EmpAttendQuery" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EmpAttend].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.client.EmpAttendEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.client.EmpAttendEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.client.EmpAttendEditUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EmpAttend].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EmpAttend].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EmpAttend].extendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EmpAttend].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.client.EmpAttendListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.client.EmpAttendListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.client.EmpAttendListUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EmpAttend].extendedProperty.maxFieldIndex">
+            <lang locale="en_US" value="9" />
+            <lang locale="zh_CN" value="9" />
+            <lang locale="zh_TW" value="9" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.EmpAttend].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizUnit>
+
